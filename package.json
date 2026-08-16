@@ -1,0 +1,30 @@
+{
+  "name": "expomind",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo/ui": "~57.0.11",
+    "@expo/vector-icons": "^15.1.1",
+    "@supabase/supabase-js": "^2.112.3",
+    "dotenv": "^17.4.2",
+    "expo": "~57.0.13",
+    "expo-status-bar": "~57.0.1",
+    "front-matter": "^4.0.2",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-native": "0.86.2",
+    "react-native-safe-area-context": "^5.9.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "private": true
+}
