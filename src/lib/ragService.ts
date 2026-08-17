@@ -1,5 +1,5 @@
 import supabase from './supabase';
-import { generateVector } from '../../embedding.js';
+import { generateVector } from './embedding';
 
 const GEMINI_API_KEY = process.env.EXPO_PUBLIC_GEMINI_API_KEY || process.env.GEMINI_API_KEY || '';
 
